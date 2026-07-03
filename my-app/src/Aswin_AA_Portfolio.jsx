@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { ExternalLink, Mail, Phone, MapPin } from "lucide-react";
-import {aswin} from "../src/images";
+import aswin from "./images/aswin.jpeg";
 
-const PHOTO_SRC = "aswin"
+const PHOTO_SRC = aswin;
 const COLORS = {
   bg: "#10161A",
   bgPanel: "#161F24",
@@ -330,8 +330,8 @@ export default function Portfolio() {
                 products <span style={{ color: COLORS.teal }}>that ship.</span>
               </h1>
               <div style={{ fontFamily: FONT_MONO, fontSize: 15, color: COLORS.textDim, marginBottom: 24 }}>
-                Full-Stack Developer <span style={{ color: COLORS.amber }}>//</span> MERN &amp; PHP{" "}
-                <span style={{ color: COLORS.amber }}>//</span> Madurai, India
+                Full-Stack Developer <span style={{ color: COLORS.amber }}>{"//"}</span> MERN &amp; PHP{" "}
+                <span style={{ color: COLORS.amber }}>{"//"}</span> Madurai, India
               </div>
               <p style={{ fontSize: 16, color: COLORS.textDim, maxWidth: 480, marginBottom: 32 }}>
                 I turn business requirements into working software — from responsive front-ends
@@ -392,7 +392,7 @@ export default function Portfolio() {
                   zIndex: 2,
                 }}
               >
-                // AAA //
+                {"// AAA //"}
               </div>
               <img
                 src={PHOTO_SRC}
